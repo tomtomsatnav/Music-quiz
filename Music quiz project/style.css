@@ -1,0 +1,124 @@
+:root {
+    background-color: rgb(29, 26, 26);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 120%;
+    font-family: 'Nova Square', cursive;
+}
+body{
+	padding: 0;
+	margin: 0;	
+	width:90vw;
+	height: 90vh;	
+}
+.panel{
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.score-container{
+    margin: 15px;
+    padding: 10px;
+    width: 80vw;
+    height: 15vh;
+    background-color:  rgb(29, 26, 26);
+    color: white;
+    text-align: right;
+}
+.question-container{
+	margin: 15px;
+	padding: 10px;
+	width: 90vw;
+	height: 15vh;
+	background-color:  rgb(29, 26, 26);
+	font-size: 120%;
+    color: white;
+	text-align: center;
+	
+}
+.result{
+	margin: 5px;
+	padding: 10px;
+	width: 85vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+	
+}
+
+.option-container{
+	display: flex;
+	justify-content: space-around;
+	margin: 15px;
+	padding: 15px;
+	width: 90vw;
+	height: 25vh;
+	background-color: rgb(29, 26, 26);
+    font-size: 20px;
+		
+}
+.option{	
+	padding: 10px;
+	width: 16vw;
+	height: 15vh;
+	font-size: larger;
+	background-color: rgb(7, 37, 56);
+	border-radius: 15%;
+}
+.option:hover{
+	background-color: rgb(9, 11, 167);
+    cursor:pointer;
+    box-shadow: 0 0px 50px 0 rgb(141, 21, 206);
+    transition: transform 100ms;
+    transform:scale(1.4);
+}
+.navigation{
+	width: 80vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-color:rgb(29, 26, 26);
+}
+
+.checkAnswer.next{
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+}
+.checkAnswer{
+    padding: 10px;
+	width: 16vw;
+	height: 15vh;
+	background-color: rgb(133, 133, 18);
+    border-radius: 15%;
+}
+.checkAnswer:hover{
+	background-color: rgb(95, 95, 20);
+    cursor:pointer;
+    box-shadow: 0 0px 50px 0 rgb(133,133,18);
+    transition: transform 100ms;
+    transform:scale(1.4);
+}
+.next{
+    padding: 10px;
+	width: 16vw;
+	height: 15vh;
+	color: white;
+	background-color: red;
+    border-radius: 15%;
+}
+.next:hover{
+	background-color: rgb(177, 20, 20);
+    cursor:pointer;
+    box-shadow: 0 0px 50px 0 rgb(255, 0, 0);
+    transition: transform 100ms;
+    transform:scale(1.4);
+}
